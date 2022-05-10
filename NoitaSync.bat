@@ -13,7 +13,7 @@ ELSE goto exit
 )
 
 :backup
-robocopy %source% %dest% * /e /zb /copyall /dcopy:DAT /mt:32 /r:1 /w:1 /mot:2 /NJH /log+:%dest%\NoitaSyncLog.txt
+robocopy %source% %dest% * /e /zb /copyall /dcopy:DAT /mt:32 /r:1 /w:1 /mot:5 /NJH /log+:%dest%\NoitaSyncLog.txt
 
 :exit
 pause
